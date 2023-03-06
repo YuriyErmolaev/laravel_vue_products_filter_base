@@ -28,7 +28,7 @@
   make product-prepare
 
 - Для остановки выполнить 
-  make up 
+  make down
 
 - Проект доступен на http://127.100.100.150
 

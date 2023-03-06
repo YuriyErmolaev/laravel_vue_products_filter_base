@@ -19,9 +19,16 @@
 
 
 Запуск:
-- Для запуска выполнить make up 
-- Для запуска терминала контейнера make bash
-- Выполнить php composer.phar install, php artisan migrate, npm install 
-- Запустить сидеры php artisan db:seed, создать link - php artisan storage:link   
-- Проект запускается на http://127.100.100.150
-- Для доступа к phpMyAdmin http://127.100.100.150:8081 (db_products/app/root)
+
+- Для запуска выполнить   
+  make up 
+
+- После запуска для инициализации, установки зависимостей и наполнения демо данными
+  в новом терминале выполнить 
+  make product-prepare
+
+- Для остановки выполнить 
+  make up 
+
+- Проект доступен на http://127.100.100.150
+

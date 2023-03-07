@@ -1,11 +1,10 @@
 <?php
 
-use App\Http\Controllers\ExportController;
-use App\Http\Controllers\FileController;
-use App\Http\Controllers\ImportController;
 use App\Http\Controllers\ProductsController;
-use App\Http\Controllers\ResultController;
-use App\Http\Controllers\UserController;
+use App\Http\Controllers\ColorsController;
+use App\Http\Controllers\SizesController;
+
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +19,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('products', [ProductsController::class, 'index']);
+Route::get('colors', [ColorsController::class, 'index']);
+Route::get('sizes', [SizesController::class, 'index']);
